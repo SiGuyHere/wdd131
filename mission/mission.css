@@ -1,0 +1,50 @@
+body {
+    font-size: 20px;
+}
+#content {
+    max-width: 60%;
+    margin: 40px auto;
+    padding: 50px;
+}
+hr {
+    height: 1px;
+}
+h2, p {
+    text-align: center;
+}
+h1{
+    text-align: center;
+    letter-spacing: 2px;
+}
+img{
+    max-width: 20%;
+    height: auto;
+    width: auto;
+    display: block;
+    margin: 50px auto;
+}
+#topics {
+    line-height: 1.5em;
+    margin: 0 auto;
+    width: 55%;
+}
+.list {
+    list-style-type: none;
+}
+li{
+    padding: 20px;
+}
+#p{
+    font-size: 25px;
+    letter-spacing: 5px;
+    color: rgb(64, 168, 253);
+}
+#p2{
+    text-align: left;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+#p3{
+    text-align: left;
+    font-style: italic;
+}
