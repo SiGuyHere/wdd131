@@ -21,3 +21,17 @@ document.getElementById("topics");
 //you can select more than one element at a time
 console.log(document.querySelectorAll(".list")[0].style);
 
+//apply a class
+const cssClass = document.querySelector("#topics").classList;
+
+cssClass.add("special");
+
+
+let selectElem = document.getElementById('webdevlist');
+selectElem.addEventListener('change', function(){
+    let codeValue = selectElem.value;
+    console.log(codeValue);
+    heading.textContent = codeValue;
+})
+                
+
